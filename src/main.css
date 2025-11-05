@@ -1,2 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
 @import "tailwindcss";
 @plugin "daisyui";
+
+html,
+body {
+    @apply bg-latar;
+    scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
+
+.stat {
+  @apply place-items-center border-none w-fit;
+}
+
+
+@theme {
+    --color-utama: #2E7D32;
+    --color-sekunder: #6CA76F;
+    --color-latar: #F9FAF9;
+    --color-aksen: #A5D6A7;
+
+    --font-geologica: "Geologica", sans-serif;
+}
