@@ -16,6 +16,9 @@ html::-webkit-scrollbar {
   @apply place-items-center border-none w-fit;
 }
 
+.btn-primary {
+  @apply bg-utama border-utama shadow-black;
+}
 
 @theme {
     --color-utama: #2E7D32;
