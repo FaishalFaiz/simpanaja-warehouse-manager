@@ -1,9 +1,21 @@
 import React from 'react'
+import DataTable from '@/components/DataTable.jsx';
 
 export default function Movement() {
     return (
         <>
-            <div className="text-black" >Stock Movement Page</div>
+            <DataTable
+                tableName="stock_movements"
+                title="Stock Movements"
+                fields={[
+                    { name: "sku", label: "SKU" },
+                    { name: "movement_type", label: "Movement Type" },
+                    { name: "quantity", label: "Quantity"  },
+                    { name: "date", label: "Date", type: "date" },
+                    { name: "note", label: "Note" },
+                ]}
+                deleteName="sku"
+            />
         </>
     )
 }
