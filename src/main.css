@@ -12,13 +12,17 @@ html::-webkit-scrollbar {
   display: none; /* Chrome, Safari, Edge */
 }
 
-.stat {
-  @apply place-items-center border-none w-fit;
-}
-
 .btn-primary {
   @apply bg-utama border-utama shadow-black;
 }
+
+.stat-desc, .stat-value, .stat-title {
+  @apply text-gray-700;
+}
+
+
+
+
 
 @theme {
     --color-utama: #2E7D32;

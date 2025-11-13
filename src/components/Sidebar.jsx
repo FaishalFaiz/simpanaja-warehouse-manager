@@ -11,7 +11,7 @@ export default function Sidebar() {
     return (
         <div className="bg-utama h-screen px-10 flex flex-col gap-10 ">
 
-            <ul className="menu menu-lg flex min-h-screen flex-col gap-7 p-0 rounded-box w-56">
+            <ul className="menu menu-lg flex min-h-screen text-white flex-col gap-7 p-0 rounded-box w-56">
                 <li className="menu-title">
                     <Link to="/" className="inline-flex w-fit text-xl text-white gap-4 mt-10" href="/">
                         <img src={Logo} alt="SimpanAja Logo" />

@@ -50,7 +50,7 @@ export default function DataTable({ tableName, fields, title, deleteName }) {
     };
 
     return (
-        <div className="overflow-x-auto m-0 md:m-5 h-screen p-10 rounded-box border border-base-content/5 bg-white shadow-[0_0_15px_rgba(0,0,0,0.1)] text-black">
+        <div className="overflow-x-auto m-0 md:m-5 h-screen p-5 md:p-10 rounded-box border border-base-content/5 bg-white shadow-[0_0_15px_rgba(0,0,0,0.1)] text-black">
             <div className="flex justify-between mb-5">
                 <h1 className="text-utama text-xl font-bold">{title}</h1>
                 <FormModal

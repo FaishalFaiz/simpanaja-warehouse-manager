@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 export default function Navbar() {
     return (
-        <nav className="navbar bg-utama shadow-sm px-5">
+        <nav className="navbar text-white bg-utama shadow-sm px-5">
             <div className="navbar-start hidden md:inline-flex">
                 <div className="avatar avatar-online">
                     <div className="w-8 rounded-full">
