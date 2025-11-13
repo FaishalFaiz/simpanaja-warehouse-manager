@@ -1,5 +1,4 @@
-import React from 'react'
-import Sidebar from '@/components/Sidebar'
+import Sidebar from '@/components/dashboard/Sidebar'
 import { Outlet } from 'react-router-dom'
 import MenuIcon from '@/assets/icons/menu.svg'
 

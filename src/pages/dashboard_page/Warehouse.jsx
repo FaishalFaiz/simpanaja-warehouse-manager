@@ -1,5 +1,4 @@
-import React from 'react'
-import DataTable from '@/components/DataTable.jsx';
+import DataTable from '@/components/dashboard/DataTable.jsx';
 
 export default function Warehouse() {
     return (

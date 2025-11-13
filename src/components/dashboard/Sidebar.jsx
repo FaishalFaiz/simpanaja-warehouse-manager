@@ -1,4 +1,3 @@
-import React from 'react'
 import Logo from '@/assets/icons/simpanaja_logo.svg'
 import PurchaseIcon from '@/assets/icons/cart_logo.svg'
 import DashboardIcon from '@/assets/icons/dashboard_logo.svg'

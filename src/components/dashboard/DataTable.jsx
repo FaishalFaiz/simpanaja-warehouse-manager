@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { supabase } from "@/lib/supabaseClient.js";
-import FormModal from "@/components/FormModal.jsx";
-import DeleteModal from "@/components/DeleteModal.jsx";
+import FormModal from "@/components/dashboard/FormModal.jsx";
+import DeleteModal from "@/components/dashboard/DeleteModal.jsx";
 
 export default function DataTable({ tableName, fields, title, deleteName }) {
     const [rows, setRows] = useState([]);

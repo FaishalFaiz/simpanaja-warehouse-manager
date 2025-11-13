@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 
 export default function FormModal({ title, fields, onSubmit }) {
     const modalRef = useRef(null);
