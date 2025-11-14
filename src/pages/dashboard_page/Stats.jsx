@@ -33,7 +33,6 @@ export default function Stats() {
     }, [])
 
 
-
     return (
         <div className="p-0 md:p-14">
             <h1 className="text-utama text-xl font-bold">Dashboard</h1>
