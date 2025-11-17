@@ -75,7 +75,7 @@ export default function ServicesVisual() {
                 <ul className="list">
                     <li className="list-row px-0 flex items-center">
                         <div className="bg-utama rounded-full w-fit p-2">
-                            <img src={ArrowIcon} />
+                            <img src={ArrowIcon} alt="arrow icon" />
                         </div>
                         <div>
                             <p className="text-xl">Fast processing for efficient work</p>
@@ -83,7 +83,7 @@ export default function ServicesVisual() {
                     </li>
                     <li className="list-row px-0 flex items-center">
                         <div className="bg-utama rounded-full w-fit p-2">
-                            <img src={ArrowIcon} />
+                            <img src={ArrowIcon} alt="arrow icon" />
                         </div>
                         <div>
                             <p className="text-xl">Reliable tracking with accurate data</p>
@@ -91,7 +91,7 @@ export default function ServicesVisual() {
                     </li>
                     <li className="list-row px-0 flex items-center">
                         <div className="bg-utama rounded-full w-fit p-2">
-                            <img src={ArrowIcon} />
+                            <img src={ArrowIcon} alt="arrow icon" />
                         </div>
                         <div>
                             <p className="text-xl">Simple interface for easy use</p>

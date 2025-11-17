@@ -8,12 +8,12 @@ export default function Navbar() {
             <div className="navbar-start hidden md:inline-flex">
                 <div className="avatar avatar-online">
                     <div className="w-8 rounded-full">
-                        <img src={Profile} />
+                        <img src={Profile} alt="Profile Image" />
                     </div>
                 </div>
             </div>
             <Link to="/" className="btn btn-ghost navbar-center">
-                <img src={Logo} />
+                <img src={Logo} alt="SimpanAja Logo" />
                 <p className="text-lg">SimpanAja</p>
             </Link>
             <Link to="/dashboard" className="navbar-end flex gap-5">

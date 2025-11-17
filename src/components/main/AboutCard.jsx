@@ -11,7 +11,7 @@ export default function AboutCard() {
                 <div className="card     md:card-xl card-border bg-base-100 w-96">
                     <div className="card-body">
                         <div className="bg-utama w-fit rounded-lg p-3">
-                            <img src={CartLogo} />
+                            <img src={CartLogo} alt="Cart icon" />
                         </div>
                         <h2 className="card-title">Quick Stock Entry</h2>
                         <p>Add new items smoothly with a simple input process designed to make stock recording faster and more efficient.</p>
@@ -20,7 +20,7 @@ export default function AboutCard() {
                 <div className="card md:card-xl card-border bg-base-100 w-96">
                     <div className="card-body">
                         <div className="bg-utama w-fit rounded-lg p-3">
-                            <img src={MovementLogo} />
+                            <img src={MovementLogo} alt="Movement icon"/>
                         </div>
                         <h2 className="card-title">Track Item Movement</h2>
                         <p>Kepp your in and out is stock log, giving you accurate and reliable movement history at all times.</p>
@@ -29,7 +29,7 @@ export default function AboutCard() {
                 <div className="card md:card-xl card-border bg-base-100 w-96">
                     <div className="card-body">
                         <div className="bg-utama w-fit rounded-lg p-3">
-                            <img src={WarehouseLogo} />
+                            <img src={WarehouseLogo} alt="warehouse icon" />
                         </div>
                         <h2 className="card-title">Warehouse Management</h2>
                         <p>Easily monitor and control inventory across multiple warehouse locations from one organized dashboard.</p>
@@ -38,7 +38,7 @@ export default function AboutCard() {
                 <div className="card md:card-xl card-border bg-base-100 w-96">
                     <div className="card-body">
                         <div className="bg-utama w-fit rounded-lg p-3">
-                            <img src={ProductLogo} />
+                            <img src={ProductLogo} alt="warehouse icon" />
                         </div>
                         <h2 className="card-title">Organized Product Data</h2>
                         <p>Store and manage product details clearly so you can access all important information whenever you need it.</p>

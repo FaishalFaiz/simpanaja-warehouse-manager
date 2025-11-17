@@ -38,7 +38,7 @@ export default function TestimonialsSection() {
                     </div>
                 </div>
                 <div className=" max-w-[300px]">
-                    <img src={ClientImage} className="w-full rounded-xl" />
+                    <img src={ClientImage} alt="Client Image" className="w-full rounded-xl" />
                 </div>
             </div>
         </>
